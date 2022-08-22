@@ -314,10 +314,221 @@ namespace ConsoleApp1
             //    Console.WriteLine("\n");
             //}
 
+            //Q26
+
+            //int i, j = 1, k;
+            //for (i = 0; i < 5; i++)
+            //{
+            //    k = j++  + ++j;
+            //    Console.Write(k + " ");
+            //}
+
+            //Q27
+
+            //Sample s = new Sample();
+            //s.num = 100;
+            //Sample.assign(0, 10);
+            //s.assign(0, 9);
+            //Console.WriteLine(s.arr[0]);
+
+            //class Sample
+            //{
+            //    public int num;
+            //    public int[] arr = new int[10];
+
+            //    public void assign(int i, int val)
+            //    {
+            //        arr[i] = val;
+            //    }
+            //}
+
+            //Q28
+
+            //String s1 = "TechBeamers";
+            //String s2 = "Welcomes its readers";
+            //String s3 = s2;
+            //Console.WriteLine((s3 == s2) + " " + s2.Equals(s3));
+
+            //Q29
+
+            //string str = "100p";
+            //int i = 0;
+            //if (int.TryParse(str, out i))
+            //{
+            //    Console.WriteLine("Yes string contains Integer and it is " + i);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("string does not contain Integer");
+            //}
+
+
+            //Q30
+
+            //int[] arr = { 1, 2, 3 };
+            //int i = 1;
+            //arr[i++] = arr[i] + 10;
+            //Console.WriteLine(String.Join(",", arr));
+
+
+            //Q31
+
+            //(i++).Assign();
+
+            //public static int i = 0;
+            //static class Extensions
+            //    {
+            //        public static void Assign(this int i)
+            //        {
+            //            Console.WriteLine(Program.i);
+            //            Console.WriteLine(i);
+            //        }
+            //    }
+
+            //Q32
+
+            //Console.WriteLine((int)Color.green + ", ");
+            //Console.WriteLine((int)Color.yellow);
+
+
+            //enum Color : int
+            //{
+            //    red, green, blue = 5, cyan, magenta = 10, yellow
+            //}
+
+            //Q33
+
+            //int i = 3;
+            //int j = 2;
+            //func1(ref i);
+            //func2(out j);
+            //Console.WriteLine(i + " " + j);
+
+            //static void func1(ref int num)
+            //{
+            //    num = num + num;
+            //}
+            //static void func2(out int num)
+            //{
+            //    num = num * num;
+            //}
+
+
+            //Q34
+
+            //var test = SingletonB.Test;
+
+            //class SingletonB
+            //{
+            //            static readonly SingletonB _instance = new SingletonB();
+
+            //    public static SingletonB Test { get { return _instance; } }
+
+            //    private SingletonB()
+            //    {
+            //        Console.WriteLine("Default Constructor");
+            //    }
+
+            //    static SingletonB()
+            //    {
+            //        Console.WriteLine("Static Constructor");
+            //    }
+            //}
+
+            //Q35
+
+            //try
+            //{
+            //    Console.WriteLine("TechBeamers Welcomes Its Readers");
+            //    Console.ReadLine();
+            //    Environment.Exit(0);
+
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("To the World of C# !!");
+            //}
+
+            //Q36
+
+            //Calculation c = new Calculation();
+            //try
+            //{
+            //    c.CalAverage();
+            //}
+            //catch (CountIsZeroException e)
+            //{
+            //    Console.WriteLine("CountIsZeroException : {0}", e);
+            //}
+
+
+            //public class Calculation
+            //{
+            //    int sum = 0;
+            //    int count = 0;
+            //    float average;
+            //    public void CalAverage()
+            //    {
+            //        if (count == 0)
+            //            throw (new CountIsZeroException("Zero count in DoAverage"));
+            //        {
+            //            average = sum / count;
+
+            //            Console.WriteLine("Program executed successfully");
+            //        }
+            //    }
+            //}
+            //public class CountIsZeroException : ApplicationException
+            //{
+            //    public CountIsZeroException(string message) : base(message)
+            //    {
+            //    }
+            //}
+
+            //Q37
+
+            //Derived d = new Derived();
+            //int i = 10;
+            //d.Func(i);
+            //Console.ReadKey();
+
+            //public class Base
+            //{
+            //    public virtual void Func(int x)
+            //    {
+            //        Console.WriteLine("Base.Func(int)");
+            //    }
+            //}
+            //public class Derived : Base
+            //{
+            //    public override void Func(int x)
+            //    {
+            //        Console.WriteLine("Derived.Func(int)");
+            //    }
+            //    public void Func(object o)
+            //    {
+            //        Console.WriteLine("Derived.Func(object)");
+            //    }
+            //}
+
+            //Q38
+
+            //string str1 = "TechBeamers";
+            //string str2 = "Techbeamers";
+            //if (str1 == str2)
+            //    Console.WriteLine("Both Strings are Equal");
+            //else
+            //    Console.WriteLine("Both Strings are Unequal");
+            //if (str1.Equals(str2))
+            //    Console.WriteLine("Both Strings are Equal");
+            //else
+            //    Console.WriteLine("Both Strings are Unequal");
+            //Console.ReadLine();
+
             Console.ReadLine();
 
         }
-        
 
     }
+   
 }
