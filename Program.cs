@@ -148,15 +148,21 @@ namespace ConsoleApp1
             //       {
             //           return a.Replace(',', '*');
             //       }
-            //   }
+            //   } 
 
             //del str1 = new del(sample.DelegateSample);
             //string str = str1("Welcome,,friends,,to,,TechBeamers");
             //Console.WriteLine(str);
 
+            //Q28
+
+            //String s1 = "TechBeamers";
+            //String s2 = "Welcomes its readers";
+            //String s3 = s2;
+            //Console.WriteLine((s3 == s2) + " " + s2.Equals(s3));
+            //Console.ReadLine();int[] arr = { 1, 2, 3 };
+
             Console.ReadLine();
-
-
         }
 
     }
