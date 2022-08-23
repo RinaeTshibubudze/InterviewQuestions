@@ -157,6 +157,7 @@ namespace ConsoleApp1
             //Console.WriteLine(str);
 
 
+
             //Q16
 
             //TestDelegate obj = new TestDelegate();
@@ -349,6 +350,11 @@ namespace ConsoleApp1
             //String s3 = s2;
             //Console.WriteLine((s3 == s2) + " " + s2.Equals(s3));
 
+            //Console.ReadLine();int[] arr = { 1, 2, 3 };
+
+            //Console.ReadLine();
+
+
             //Q29
 
             //string str = "100p";
@@ -525,9 +531,140 @@ namespace ConsoleApp1
             //    Console.WriteLine("Both Strings are Unequal");
             //Console.ReadLine();
 
+
+            //Q39
+
+            //    Sample s = new Sample();
+            //    s.Print();
+
+            //    ISample i = s;
+            //    i.Print();
+
+            //    public interface ISample
+            //{
+            //    void Print(string val = "Interface Executed");
+            //}
+
+            //public class Sample : ISample
+            //{
+            //    public void Print(string val = "Class Executed")
+            //    {
+            //        Console.WriteLine(val);
+            //    }
+            //}
+
+            //Q40
+
+            //int num = 0;
+            //(num++);
+            //Console.WriteLine(num);
+
+            //Q41
+
+            //int val = (byte)+(char)-(int)+(long)-2;
+            //Console.WriteLine(val);
+
+            //Q42
+
+            //Boolean b1 = true, b2 = false;
+            //if ((b2 = true) | (b1 ^ b2))
+            //{
+            //    Console.WriteLine("execution success");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("execution failure");
+            //}
+
+            //Q43
+
+            //string str1 = "\U0010FADE";
+            //string str2 = "\U0000FADE";
+            //Console.WriteLine(str1.Length);
+            //Console.WriteLine(str2.Length);
+
+            //Q44
+
+            //int[] singleDimArray = { 1, 2, 3, 4 };
+            //int[,] multiDimArray = { { 1, 2 }, { 3, 4 } };
+            //int[][] jaggedArray = { new int[] { 1, 2 }, new int[] { 3, 4 } };
+
+            //Console.WriteLine(singleDimArray.Length);
+            //Console.WriteLine(multiDimArray.Length);
+            //Console.WriteLine(jaggedArray.Length);
+
+            //Q45
+
+            //float num = 56, div = 0;
+
+            //try
+            //{
+            //    Console.WriteLine(num / div);
+            //}
+            //catch (DivideByZeroException)
+            //{
+            //    Console.WriteLine("Division By Zero");
+            //}
+
+            //Q46
+
+            //for (int x = 0; x < 10; x++)
+            //{
+            //    Console.WriteLine(x + ' ');
+            //}
+
+            //Q47
+
+            //double num1 = 1.000001;
+            //double num2 = 0.000001;
+            //Console.WriteLine((num1 - num2) == 1.0);
+
+            //Q48
+            //new Program(null);
+
+            //public Program(Object o)
+            //{
+            //    Console.WriteLine("Object argument");
+            //}
+            //public Program(double[] arr)
+            //{
+            //    Console.WriteLine("double array argument");
+            //}
+
+            //Q49
+            //Console.WriteLine("H" + 'I');
+            //Console.WriteLine('h' + 'i');
+
+
+            //Q50
+
+            //String str = "";
+
+            //StringBuilder sb1 = new StringBuilder("TechBeamers");
+            //StringBuilder sb2 = new StringBuilder("TechBeamers");
+            //StringBuilder sb3 = new StringBuilder("Welcome");
+            //StringBuilder sb4 = sb3;
+
+            //if (sb1.Equals(sb2)) str += "1";
+            //if (sb2.Equals(sb3)) str += "2";
+            //if (sb3.Equals(sb4)) str += "3";
+
+
+            //String str1 = "TechBeamers";
+            //String str2 = "Welcome";
+            //String str3 = str2;
+
+            //if (str1.Equals(str2)) str += "4";
+            //if (str2.Equals(str3)) str += "5";
+            //Console.WriteLine(str);
+
+            
+
             Console.ReadLine();
 
+
         }
+       
 
     }
    
