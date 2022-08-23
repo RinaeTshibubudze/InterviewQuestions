@@ -658,13 +658,161 @@ namespace ConsoleApp1
             //if (str2.Equals(str3)) str += "5";
             //Console.WriteLine(str);
 
-            
+            //Q51
+
+            //int i = 0, j = 0;
+
+            //label:
+            //i++;
+            //j += i;
+            //if (i < 10)
+            //{
+            //    Console.Write(i + " ");
+            //    goto label;
+            //}
+
+            //Q52
+
+            //int i = 20;
+            //for (; ; )
+            //{
+            //    Console.Write(i + " ");
+            //    if (i >= -10)
+            //        i -= 4;
+            //    else
+            //        break;
+            //}
+
+            //Q53
+
+            //    day obj = day.Wed;
+            //    switch (obj)
+            //    {
+            //        case day.Sun:
+            //            Console.WriteLine(day.Sun);
+            //            break;
+
+            //        case day.Mon:
+            //            Console.WriteLine(day.Mon);
+            //            break;
+
+            //        case day.Tue:
+            //            Console.WriteLine(day.Tue);
+            //            break;
+
+            //        case day.Wed:
+            //            Console.WriteLine(day.Wed);
+            //            break;
+
+            //        case day.Thur:
+            //            Console.WriteLine(day.Thur);
+            //            break;
+
+            //        case day.Fri:
+            //            Console.WriteLine(day.Fri);
+            //            break;
+
+            //        case day.Sat:
+            //            Console.WriteLine(day.Sat);
+            //            break;
+
+
+
+            //    }
+
+            //public enum day
+            //{ Sun, Mon, Tue, Wed, Thur, Fri, Sat };
+
+            //Q54
+
+            //int num;
+            //for (num = -5; num <= 5; num++)
+            //{
+            //    switch (num)
+            //    {
+            //        case 0:
+            //            Console.Write("Tech Beamers");
+            //            break;
+            //    }
+
+            //    if (num > 0)
+            //        Console.Write("+");
+            //    else if (num < 0)
+            //        Console.Write("*");
+            //}
+
+
+            //Q55
+
+            //char ch = Convert.ToChar('c' | 'a'| 'b');
+            //switch (ch)
+            //{
+            //    case 'A':
+            //    case 'a':
+            //        Console.WriteLine("case A | case a");
+            //        break;
+
+            //    case 'B':
+            //    case 'b':
+            //        Console.WriteLine("case B | case b");
+            //        break;
+
+            //    case 'C':
+            //    case 'c':
+            //    case 'D':
+            //    case 'd':
+            //        Console.WriteLine("case D | case d");
+            //        break;
+            //}
+
+            //Q56
+
+            //int a = 2, b = a;
+            //if (Convert.ToBoolean((a | b & 5) & (b - 25 * 1)))
+            //    Console.WriteLine(1);
+            //else
+            //    Console.WriteLine(0);
+
+            //Q57
+
+            //int id;
+            //String val;
+            //switch (id)
+            //{
+            //    case 5:
+            //        val = "First";
+            //        break;
+
+            //    case 6:
+            //        val = "Second";
+            //        break;
+
+            //    case 1:
+            //        val = "Third";
+            //        break;
+
+            //    case ls < 4:
+            //        val = "Fourth";
+            //        break;
+
+            //    case Else:
+            //        val = "Fifth";
+            //        break;
+            //}
+
+            //Q58
+
+            //char Obj = 'L';
+            //char Num = Convert.ToChar(76);
+            //Obj--;
+            //Num++;
+            //Console.WriteLine(Obj + "  " + Num);
+            //Console.ReadLine();
 
             Console.ReadLine();
 
-
         }
-       
+        
 
     }
    
