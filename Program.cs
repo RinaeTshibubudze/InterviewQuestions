@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -809,8 +810,27 @@ namespace ConsoleApp1
             //Console.WriteLine(Obj + "  " + Num);
             //Console.ReadLine();
 
-            Console.ReadLine();
+            //Q59
 
+            //string[] strArr = { "Hello", "World" };
+            //IList<string> strList = strArr;
+            //IList<object> objList = strArr;
+            //Console.Write(strList[0] + strList[1] + objList[1]);
+
+           int[] arr = { 1, 2, 3 };
+           display(arr);
+           display(4, 5, 6);
+
+           Console.ReadLine();
+
+        }
+
+        static void display(params int[] arr)
+        {
+            foreach (var i in arr)
+            {
+                Console.WriteLine(i);
+            }
         }
         
 
