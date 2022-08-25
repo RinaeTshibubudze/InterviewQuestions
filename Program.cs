@@ -817,22 +817,75 @@ namespace ConsoleApp1
             //IList<object> objList = strArr;
             //Console.Write(strList[0] + strList[1] + objList[1]);
 
-           int[] arr = { 1, 2, 3 };
-           display(arr);
-           display(4, 5, 6);
+            //Q60
 
-           Console.ReadLine();
+            //int[] arr = { 1, 2, 3 };
+            //display(arr);
+            //display(4, 5, 6);
+
+            // static void display(params int[] arr)
+            // {
+            //     foreach (var i in arr)
+            //     {
+            //         Console.WriteLine(i);
+            //     }
+            // }
+
+            //Q61
+            //int[][][] arr = new int[2][][]
+            //{
+            //    new int[2][]
+            //    {
+            //        new int[3] {1, 2,3},
+            //        new int[2] {4, 5 }
+            //    },
+            //    new int[1][]
+            //    {
+            //        new int[3] {7, 8, 9}
+
+            //    }
+            //};
+
+            //Console.WriteLine(arr[1][0][1]);
+
+            //Q62
+
+            //DataStore<string> cities = new DataStore<string>();
+            //cities.AddOrUpdate(0, "Mumbai");
+            //cities.AddOrUpdate(1, "Chicago");
+            //cities.AddOrUpdate(2, "London");
+
+            //Console.WriteLine(cities.GetData(1));
+
+            //DataStore<int> empIds = new DataStore<int>();
+            //empIds.AddOrUpdate(0, 50);
+            //empIds.AddOrUpdate(1, 65);
+            //empIds.AddOrUpdate(2, 89);
+
+            //Console.WriteLine(empIds.GetData(1));
+
+            //class DataStore<T>
+            //{
+            //    private T[] _data = new T[10];
+
+            //    public void AddOrUpdate(int index, T item)
+            //    {
+            //        if (index >= 0 && index < 10)
+            //            _data[index] = item;
+            //    }
+
+            //    public T GetData(int index)
+            //    {
+            //        if (index >= 0 && index < 10)
+            //            return _data[index];
+            //        else
+            //            return default(T);
+            //    }
+            //}
+
+            Console.ReadLine();
 
         }
-
-        static void display(params int[] arr)
-        {
-            foreach (var i in arr)
-            {
-                Console.WriteLine(i);
-            }
-        }
-        
 
     }
    
