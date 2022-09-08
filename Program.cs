@@ -77,9 +77,9 @@ namespace ConsoleApp1
             //Q8
 
             //TestCode p = new TestCode();
-            //p.print(2, 3, 8);
+            //p.Print(2, 3, 8);
             //int[] arr = { 2, 11, 15, 20 };
-            //p.print(arr);
+            //p.Print(arr);
             //Console.ReadLine();
 
             //TestCode >>>>>
@@ -108,13 +108,10 @@ namespace ConsoleApp1
             //Q12
 
             //Program obj = null;
-            //Console.WriteLine(Program.print());
+            //Console.WriteLine(TestCode.print());
             //Console.ReadLine();
 
-            //private static String print()
-            //{
-            //    return "Hi, I am a Tech-savvy!!";
-            //}
+            //TestCode >>>>>
 
             //Q13
 
